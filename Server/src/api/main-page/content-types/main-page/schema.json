@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "Main_Page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
