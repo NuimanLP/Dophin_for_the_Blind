@@ -4,7 +4,8 @@
   "info": {
     "singularName": "main-page",
     "pluralName": "main-pages",
-    "displayName": "Main_Page"
+    "displayName": "Main_Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,16 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
       "type": "text"
+    },
+    "Topic": {
+      "type": "string"
     }
   }
 }

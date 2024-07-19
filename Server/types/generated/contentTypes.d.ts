@@ -368,6 +368,7 @@ export interface ApiMainPageMainPage extends Schema.CollectionType {
     singularName: 'main-page';
     pluralName: 'main-pages';
     displayName: 'Main_Page';
+    description: '';
   };
   options: {
     draftAndPublish: false;
@@ -375,6 +376,7 @@ export interface ApiMainPageMainPage extends Schema.CollectionType {
   attributes: {
     Image: Attribute.Media<'images' | 'videos' | 'audios', true>;
     description: Attribute.Text;
+    Topic: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
