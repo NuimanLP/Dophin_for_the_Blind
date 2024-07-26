@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pics",
+  "info": {
+    "singularName": "pic",
+    "pluralName": "pics",
+    "displayName": "Pic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image_pic": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Campaign": {
+      "type": "string"
+    }
+  }
+}
