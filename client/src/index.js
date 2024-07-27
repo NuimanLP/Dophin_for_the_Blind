@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Test from'./asset/Main-page/component/AppMenu'
+import Test from'./asset/JAVA/AppMenu'
 import {
   createBrowserRouter,
   RouterProvider,

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Layout, Menu, Carousel, Image } from 'antd';
 import axios from 'axios';
 import config from '../../../config';
-import AppMenu from './AppMenu';
+import AppMenu from '../AppMenu';
+import FooterPage from '../FooterPage.js';
 
 const { Content, Footer } = Layout;
 
@@ -29,7 +30,7 @@ const Main = () => {
     <Layout>
       <AppMenu></AppMenu>
       <Content style={{ padding: '0 50px' }}>
-        <div className="site-layout-content" style={{ padding: '24px 0', textAlign: 'center' }}>
+        <div className="site-layout-content p-6 text-center">
           <Carousel arrows infinite={true} autoplay={true} autoplaySpeed={3000} 
              arrowSize={250}>
             {images.map((image, index) => (
@@ -44,9 +45,7 @@ const Main = () => {
           </Carousel>
         </div>
       </Content>
-      <Footer style={{ textAlign: 'center' }}>
-        MyApp ©2024 Created by Your Name
-      </Footer>
+      <FooterPage></FooterPage>
     </Layout>
   );
 };

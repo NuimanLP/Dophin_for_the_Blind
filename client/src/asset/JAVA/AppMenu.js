@@ -28,8 +28,8 @@ const AppMenu = () => {
   };
 
   return (
-    <Header className="bg-white p-1">
-      <Menu theme="light" mode="horizontal" selectedKeys={[getSelectedKey()]} className="flex justify-center w-full text-lg">
+    <Header className="bg-white p-3.5">
+      <Menu theme="light" mode="horizontal" selectedKeys={[getSelectedKey()]} className="flex justify-center text-xl space-x-4">
         <Menu.Item key="1">
           <Link to="/">หน้าหลัก</Link>
         </Menu.Item>
